@@ -1,0 +1,81 @@
+/* Set background color for the breadcrumb container */
+.breadcrumb {
+    background-color: #7e1329;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Set background color for breadcrumb items */
+.breadcrumb-item {
+    background-color: #7e1329;
+    color: #ffffff;
+}
+
+/* Style breadcrumb links */
+.breadcrumb-item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Optional: Hover effect for breadcrumb links */
+.breadcrumb-item a:hover {
+    color: #cccccc;
+}
+
+/* Set background color for the entire page */
+body {
+    background-color: #0a0c10;
+    color: #ffffff;
+}
+
+/* Set background color for the navbar */
+.navbar, #navbar, .navigation, header {
+    background-color: #0a0c10;
+}
+
+/* Set background image for the footer */
+footer, .footer, #footer {
+    background-image: url('https://i.imgur.com/iDwPRFz.png');
+    background-size: cover;       /* Makes the image cover the entire footer */
+    background-repeat: no-repeat; /* Prevents image from repeating */
+    background-position: center;  /* Centers the image */
+    color: #ffffff;               /* Ensures footer text is visible */
+    padding: 20px 0;             /* Optional: Adds spacing */
+}
+
+/* Set background color for card headers */
+.card-header, .card-header.justify-content-between {
+    background-color: #0a0c10;
+    color: #ffffff;
+    border-color: #1a1d24;
+}
+
+* {
+    box-shadow: none !important;
+}
+
+/* Style for the entire card */
+.card {
+    background-color: #1a1d24;  /* Dark grey background */
+    color: #ffffff;             /* White text for contrast */
+    border: 1px solid #2a2f36; /* Optional: Subtle border */
+    border-radius: 8px;         /* Optional: Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); /* Optional: Soft shadow */
+}
+
+/* Style for the card body */
+.card-body {
+    background-color: #1a1d24;  /* Matches the card background */
+    color: #ffffff;             /* White text for contrast */
+    padding: 15px;              /* Optional: Adds spacing */
+    border-top: 1px solid #2a2f36; /* Optional: Divider between header and body */
+}
+
+
+#changeMode {
+    display: none !important;
+}
+
+a.fs-sm.mb-2 {
+    color: #770327; /* Replace with your desired color code */
+
